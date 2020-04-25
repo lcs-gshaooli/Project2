@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-Kj-SoS">
-                                <rect key="frame" x="107" y="100" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-Kj-SoS">
+                                <rect key="frame" x="108" y="100" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VSp-B3-dWX"/>
@@ -26,7 +26,7 @@
                                 <rect key="frame" x="107" y="230" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="620-jJ-Eud"/>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vHr-WR-khF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-MH-INR">
@@ -50,9 +50,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="XdJ-AH-LUP"/>
                     <connections>
-                        <outlet property="Button1" destination="fgb-Kj-SoS" id="vOd-Ae-fV3"/>
-                        <outlet property="Button2" destination="jCz-f6-zPo" id="1ch-TL-Nn5"/>
-                        <outlet property="Button3" destination="CaZ-MH-INR" id="Liz-m8-8Vn"/>
+                        <outlet property="button1" destination="fgb-Kj-SoS" id="CBA-9s-Gh4"/>
+                        <outlet property="button2" destination="jCz-f6-zPo" id="fLr-HY-Szu"/>
+                        <outlet property="button3" destination="CaZ-MH-INR" id="5h4-AR-b2W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
